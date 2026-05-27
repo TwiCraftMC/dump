@@ -1,0 +1,773 @@
+[SKL Updater] SKlauncher 3.2.18+build.0
+[SKL Updater] 19.05.2026, 22:51:42
+[SKL Updater] System.getProperty('os.name') == 'Windows 10'
+[SKL Updater] System.getProperty('os.version') == '10.0'
+[SKL Updater] System.getProperty('os.arch') == 'amd64'
+[SKL Updater] System.getProperty('java.version') == '21.0.9'
+[SKL Updater] System.getProperty('java.vendor') == 'Azul Systems, Inc.'
+[SKL Updater] System.getProperty('sun.arch.data.model') == '64'
+[SKL Updater] Reading VM options from C:\Users\Hizuka\AppData\Roaming\.minecraft\sklauncher\sklauncher.vmoptions
+[SKL Updater] System.setProperty('prism.text', 't2k')
+[SKL Updater] System.setProperty('prism.lcdtext', 'false')
+[SKL Updater] System.setProperty('java.net.preferIPv4Stack', 'true')
+[SKL Updater] System.setProperty('apple.awt.application.appearance', 'system')
+[SKL Updater] Executing task: Cleanup
+[SKL Updater] Task completed: Cleanup - Cleaned up 0 files
+[SKL Updater] Executing task: Mirror Discovery
+[SKL Updater] Testing mirror: files.skmedix.pl
+[SKL Updater] Using config: files.skmedix.pl (response time: 1355ms)
+[SKL Updater] Task completed: Mirror Discovery - Found working mirror: files.skmedix.pl
+[SKL Updater] Executing task: Configuration
+[SKL Updater] Saving local cache...
+[SKL Updater] Task completed: Configuration - Configuration loaded from remote
+[SKL Updater] Executing task: Version Check
+[SKL Updater] Bootstrap is up to date
+[SKL Updater] Task completed: Version Check - Bootstrap version is current
+[SKL Updater] Executing task: File Validation
+[SKL Updater] Checksum check: 'ed89796f575bc49b424e700558323cacdbfb1b6b' != 'af0536d0cc7599654738165a425da46cc7accb77'?
+[SKL Updater] File sklauncher-fx.jar is outdated
+[SKL Updater] Checking local cache for JavaFX dependencies...
+[SKL Updater] Checksum check: '23a64a0c4cba3da91349df902caa99074966e0f0' == '23a64a0c4cba3da91349df902caa99074966e0f0'?
+[SKL Updater] Local JavaFX dependency javafx-web-22.0.2-win.jar is valid.
+[SKL Updater] Checksum check: 'ed85275a7530ec35206364eb4dea408174f7c226' == 'ed85275a7530ec35206364eb4dea408174f7c226'?
+[SKL Updater] Local JavaFX dependency javafx-swing-22.0.2-win.jar is valid.
+[SKL Updater] Checksum check: '5dfeba2fb52aa7e896edeea18c86ff1143c2a7ae' == '5dfeba2fb52aa7e896edeea18c86ff1143c2a7ae'?
+[SKL Updater] Local JavaFX dependency javafx-media-22.0.2-win.jar is valid.
+[SKL Updater] Checksum check: '4553548f8b569b5f7da7f9d93460f059dbed85dd' == '4553548f8b569b5f7da7f9d93460f059dbed85dd'?
+[SKL Updater] Local JavaFX dependency javafx-controls-22.0.2-win.jar is valid.
+[SKL Updater] Checksum check: '88efcf6f439b36c17bd467630f3942aa89d7f37c' == '88efcf6f439b36c17bd467630f3942aa89d7f37c'?
+[SKL Updater] Local JavaFX dependency javafx-graphics-22.0.2-win.jar is valid.
+[SKL Updater] Checksum check: '0c109e43bc5a7a845e7bcc1f01f6a5204027cfb6' == '0c109e43bc5a7a845e7bcc1f01f6a5204027cfb6'?
+[SKL Updater] Local JavaFX dependency javafx-base-22.0.2-win.jar is valid.
+[SKL Updater] JFX dependencies are valid
+[SKL Updater] Task completed: File Validation - Updates required
+[SKL Updater] Executing task: Conditional: needsUpdate
+[SKL Updater] Condition 'needsUpdate' is true, executing conditional tasks
+[SKL Updater] Executing task: Patch
+[SKL Updater] No patches to apply
+[SKL Updater] Task completed: Patch - No patches needed
+[SKL Updater] Executing task: File Update
+[SKL Updater] Checksum check: 'ed89796f575bc49b424e700558323cacdbfb1b6b' != 'af0536d0cc7599654738165a425da46cc7accb77'?
+[SKL Updater] Downloading 'sklauncher-fx.jar.xz'... 
+[SKL Updater] Got reply in: 0ms
+[SKL Updater] Downloaded 15.19MB in 1.85s at 8.20MB/s
+[SKL Updater] Checksum check: '87bb14c6a5a653c16c23cad3d6d36d43acadcecd' == '87bb14c6a5a653c16c23cad3d6d36d43acadcecd'?
+[SKL Updater] Unpacking sklauncher-fx.jar.xz...
+[SKL Updater] Successfully unpacked file 'sklauncher-fx.jar.xz' to 'sklauncher-fx.jar'
+[SKL Updater] Checksum check: 'af0536d0cc7599654738165a425da46cc7accb77' == 'af0536d0cc7599654738165a425da46cc7accb77'?
+[SKL Updater] File sklauncher-fx.jar updated successfully
+[SKL Updater] Task completed: File Update - All files updated successfully
+[SKL Updater] Executing task: Dependency Download
+[SKL Updater] Loading local dependencies, and downloading if needed...
+[SKL Updater] Dependencies downloaded successfully
+[SKL Updater] Task completed: Dependency Download - JavaFX dependencies downloaded
+[SKL Updater] Task completed: Conditional: needsUpdate - Conditional tasks completed
+[SKL Updater] Bootstrap tasks completed, starting launcher...
+[SKL Updater] Starting launcher initialization...
+[SKL Updater] Loading local dependencies, and downloading if needed...
+[SKL Updater] JavaFX classpath injection complete
+[SKL Updater] JavaFX support ensured in 171ms
+[SKL Updater] Launcher class loaded, invoking constructor...
+[22:51:49 INFO]: SKlauncher 3.2.18 build.595 started on windows...
+[22:51:49 INFO]: Current time is May 19, 2026, 10:51:49 PM
+[22:51:49 INFO]: Bootstrap version == '3218'
+[22:51:49 INFO]: Timezone == 'Asia/Manila'
+[22:51:49 INFO]: System.getProperty('os.name') == 'Windows 10'
+[22:51:49 INFO]: System.getProperty('os.version') == '10.0'
+[22:51:49 INFO]: System.getProperty('os.build') == '19045'
+[22:51:49 INFO]: System.getProperty('os.arch') == 'amd64'
+[22:51:49 INFO]: System.getProperty('java.version') == '21.0.9'
+[22:51:49 INFO]: System.getProperty('java.vendor') == 'Azul Systems, Inc.'
+[22:51:49 INFO]: System.getProperty('sun.arch.data.model') == '64'
+[22:51:49 INFO]: System.getProperty('https.protocols') == 'null'
+[22:51:49 INFO]: System.getenv('ProgramFiles(x86)') == 'true'
+[22:51:49 INFO]: System.getProperty('javafx.version') == '22.0.2'
+[22:51:49 INFO]: proxy == DIRECT
+[SKL Updater] Launcher constructor completed in 2440ms
+[SKL Updater] Active thread count: 13
+[22:51:51 INFO]: Refreshing local version list...
+[SKL Updater] Non-daemon thread: AWT-EventQueue-0 (state: WAITING)
+[SKL Updater] Non-daemon thread: DestroyJavaVM (state: RUNNABLE)
+[SKL Updater] Non-daemon thread: SKL-Launcher-Starter (state: RUNNABLE)
+[SKL Updater] Non-daemon thread: Timer-0 (state: TIMED_WAITING)
+[SKL Updater] Non-daemon thread: JavaFX Application Thread (state: RUNNABLE)
+[SKL Updater] Non-daemon thread: AWT-Shutdown (state: WAITING)
+[22:51:51 INFO]: Local refresh complete; remote sources will load on demand.
+[22:51:51 INFO]: Loaded 0 account(s) from binary format
+[22:51:51 INFO]: Loaded 0 account(s)
+[22:51:51 INFO]: Loaded 3 profile(s); selected 'TwiCraftMC'
+[SKL Updater] Launcher started successfully, bootstrap UI hidden
+[SKL Updater] Launcher started successfully
+[22:51:54 INFO]: UI resources restored
+[SKL Updater] Shutting down Download executor...
+[SKL Updater] Shutting down Scheduled executor...
+[SKL Updater] Shutting down IO executor...
+[22:52:09 INFO]: Logging in offline as Hizuka
+[22:52:09 INFO]: Loading avatar for user 'd4a444bb-e377-3f74-9804-ab2bbe77ab4d'
+[22:52:10 WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@fc210a3[id=d4a444bb-e377-3f74-9804-ab2bbe77ab4d,name=Hizuka,properties={},legacy=false]
+[22:52:15 INFO]: Refreshing 'official' remote version list...
+[22:52:15 INFO]: Refreshing 'fabric' remote version list...
+[22:52:16 INFO]: Installed CompleteVersion{id='1.21.11', updatedTime=Tue Dec 09 12:23:30 PST 2025, releasedTime=Tue Dec 09 12:23:30 PST 2025, type=RELEASE, libraries=[Library{descriptor='at.yawk.lz4:lz4-java:1.8.1', rules=null, natives=null, extract=null}, Library{descriptor='ca.weblite:java-objc-bridge:1.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='com.azure:azure-json:1.4.0', rules=null, natives=null, extract=null}, Library{descriptor='com.github.oshi:oshi-core:6.9.0', rules=null, natives=null, extract=null}, Library{descriptor='com.google.code.gson:gson:2.13.2', rules=null, natives=null, extract=null}, Library{descriptor='com.google.guava:failureaccess:1.0.3', rules=null, natives=null, extract=null}, Library{descriptor='com.google.guava:guava:33.5.0-jre', rules=null, natives=null, extract=null}, Library{descriptor='com.ibm.icu:icu4j:77.1', rules=null, natives=null, extract=null}, Library{descriptor='com.microsoft.azure:msal4j:1.23.1', rules=null, natives=null, extract=null}, Library{descriptor='com.mojang:authlib:7.0.61', rules=null, natives=null, extract=null}, Library{descriptor='com.mojang:blocklist:1.0.10', rules=null, natives=null, extract=null}, Library{descriptor='com.mojang:brigadier:1.3.10', rules=null, natives=null, extract=null}, Library{descriptor='com.mojang:datafixerupper:9.0.19', rules=null, natives=null, extract=null}, Library{descriptor='com.mojang:jtracy:1.0.37', rules=null, natives=null, extract=null}, Library{descriptor='com.mojang:jtracy:1.0.37:natives-linux', rules=[Rule{action=ALLOW, os=OSRestriction{name=LINUX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='com.mojang:jtracy:1.0.37:natives-macos', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='com.mojang:jtracy:1.0.37:natives-macos-arm64', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='com.mojang:jtracy:1.0.37:natives-windows', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='com.mojang:logging:1.6.11', rules=null, natives=null, extract=null}, Library{descriptor='com.mojang:patchy:2.2.10', rules=null, natives=null, extract=null}, Library{descriptor='com.mojang:text2speech:1.18.11', rules=null, natives=null, extract=null}, Library{descriptor='commons-codec:commons-codec:1.19.0', rules=null, natives=null, extract=null}, Library{descriptor='commons-io:commons-io:2.20.0', rules=null, natives=null, extract=null}, Library{descriptor='io.netty:netty-buffer:4.2.7.Final', rules=null, natives=null, extract=null}, Library{descriptor='io.netty:netty-codec-base:4.2.7.Final', rules=null, natives=null, extract=null}, Library{descriptor='io.netty:netty-codec-compression:4.2.7.Final', rules=null, natives=null, extract=null}, Library{descriptor='io.netty:netty-codec-http:4.2.7.Final', rules=null, natives=null, extract=null}, Library{descriptor='io.netty:netty-common:4.2.7.Final', rules=null, natives=null, extract=null}, Library{descriptor='io.netty:netty-handler:4.2.7.Final', rules=null, natives=null, extract=null}, Library{descriptor='io.netty:netty-resolver:4.2.7.Final', rules=null, natives=null, extract=null}, Library{descriptor='io.netty:netty-transport-classes-epoll:4.2.7.Final', rules=null, natives=null, extract=null}, Library{descriptor='io.netty:netty-transport-classes-kqueue:4.2.7.Final', rules=null, natives=null, extract=null}, Library{descriptor='io.netty:netty-transport-native-epoll:4.2.7.Final:linux-aarch_64', rules=[Rule{action=ALLOW, os=OSRestriction{name=LINUX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='io.netty:netty-transport-native-epoll:4.2.7.Final:linux-x86_64', rules=[Rule{action=ALLOW, os=OSRestriction{name=LINUX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='io.netty:netty-transport-native-kqueue:4.2.7.Final:osx-aarch_64', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='io.netty:netty-transport-native-kqueue:4.2.7.Final:osx-x86_64', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='io.netty:netty-transport-native-unix-common:4.2.7.Final', rules=null, natives=null, extract=null}, Library{descriptor='io.netty:netty-transport:4.2.7.Final', rules=null, natives=null, extract=null}, Library{descriptor='it.unimi.dsi:fastutil:8.5.18', rules=null, natives=null, extract=null}, Library{descriptor='net.java.dev.jna:jna-platform:5.17.0', rules=null, natives=null, extract=null}, Library{descriptor='net.java.dev.jna:jna:5.17.0', rules=null, natives=null, extract=null}, Library{descriptor='net.sf.jopt-simple:jopt-simple:5.0.4', rules=null, natives=null, extract=null}, Library{descriptor='org.apache.commons:commons-compress:1.28.0', rules=null, natives=null, extract=null}, Library{descriptor='org.apache.commons:commons-lang3:3.19.0', rules=null, natives=null, extract=null}, Library{descriptor='org.apache.logging.log4j:log4j-api:2.25.2', rules=null, natives=null, extract=null}, Library{descriptor='org.apache.logging.log4j:log4j-core:2.25.2', rules=null, natives=null, extract=null}, Library{descriptor='org.apache.logging.log4j:log4j-slf4j2-impl:2.25.2', rules=null, natives=null, extract=null}, Library{descriptor='org.jcraft:jorbis:0.0.17', rules=null, natives=null, extract=null}, Library{descriptor='org.joml:joml:1.10.8', rules=null, natives=null, extract=null}, Library{descriptor='org.jspecify:jspecify:1.0.0', rules=null, natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-freetype:3.3.3', rules=null, natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-freetype:3.3.3:natives-linux', rules=[Rule{action=ALLOW, os=OSRestriction{name=LINUX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-freetype:3.3.3:natives-macos-arm64', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-freetype:3.3.3:natives-macos-patch', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-freetype:3.3.3:natives-windows', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-freetype:3.3.3:natives-windows-arm64', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-freetype:3.3.3:natives-windows-x86', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-glfw:3.3.3', rules=null, natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-glfw:3.3.3:natives-linux', rules=[Rule{action=ALLOW, os=OSRestriction{name=LINUX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-glfw:3.3.3:natives-macos', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-glfw:3.3.3:natives-macos-arm64', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-glfw:3.3.3:natives-windows', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-glfw:3.3.3:natives-windows-arm64', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-glfw:3.3.3:natives-windows-x86', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-jemalloc:3.3.3', rules=null, natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-jemalloc:3.3.3:natives-linux', rules=[Rule{action=ALLOW, os=OSRestriction{name=LINUX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-jemalloc:3.3.3:natives-macos', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-jemalloc:3.3.3:natives-macos-arm64', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-jemalloc:3.3.3:natives-windows', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-jemalloc:3.3.3:natives-windows-arm64', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-jemalloc:3.3.3:natives-windows-x86', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-openal:3.3.3', rules=null, natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-openal:3.3.3:natives-linux', rules=[Rule{action=ALLOW, os=OSRestriction{name=LINUX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-openal:3.3.3:natives-macos', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-openal:3.3.3:natives-macos-arm64', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-openal:3.3.3:natives-windows', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-openal:3.3.3:natives-windows-arm64', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-openal:3.3.3:natives-windows-x86', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-opengl:3.3.3', rules=null, natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-opengl:3.3.3:natives-linux', rules=[Rule{action=ALLOW, os=OSRestriction{name=LINUX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-opengl:3.3.3:natives-macos', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-opengl:3.3.3:natives-macos-arm64', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-opengl:3.3.3:natives-windows', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-opengl:3.3.3:natives-windows-arm64', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-opengl:3.3.3:natives-windows-x86', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-stb:3.3.3', rules=null, natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-stb:3.3.3:natives-linux', rules=[Rule{action=ALLOW, os=OSRestriction{name=LINUX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-stb:3.3.3:natives-macos', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-stb:3.3.3:natives-macos-arm64', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-stb:3.3.3:natives-windows', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-stb:3.3.3:natives-windows-arm64', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-stb:3.3.3:natives-windows-x86', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-tinyfd:3.3.3', rules=null, natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-tinyfd:3.3.3:natives-linux', rules=[Rule{action=ALLOW, os=OSRestriction{name=LINUX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-tinyfd:3.3.3:natives-macos', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-tinyfd:3.3.3:natives-macos-arm64', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-tinyfd:3.3.3:natives-windows', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-tinyfd:3.3.3:natives-windows-arm64', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl-tinyfd:3.3.3:natives-windows-x86', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl:3.3.3', rules=null, natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl:3.3.3:natives-linux', rules=[Rule{action=ALLOW, os=OSRestriction{name=LINUX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl:3.3.3:natives-macos', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl:3.3.3:natives-macos-arm64', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl:3.3.3:natives-windows', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl:3.3.3:natives-windows-arm64', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.lwjgl:lwjgl:3.3.3:natives-windows-x86', rules=[Rule{action=ALLOW, os=OSRestriction{name=WINDOWS, version='null', arch='null'}, features=null}], natives=null, extract=null}, Library{descriptor='org.slf4j:slf4j-api:2.0.17', rules=null, natives=null, extract=null}], mainClass='net.minecraft.client.main.Main', jar='null', minimumLauncherVersion=21}
+[22:52:40 INFO]: Removing profile 'TwiCraftMC'
+[22:52:40 INFO]: Adding profile 'TwiCraftMC'
+[22:52:40 INFO]: Setting selected profile to 'TwiCraftMC'
+[22:52:44 INFO]: Getting syncinfo for selected version
+[22:52:44 INFO]: Queueing library & version downloads
+[22:52:44 INFO]: Installed CompleteVersion{id='fabric-loader-0.19.2-1.21.11', updatedTime=Tue May 19 04:35:56 PST 2026, releasedTime=Tue May 19 04:35:56 PST 2026, type=RELEASE, libraries=[Library{descriptor='org.ow2.asm:asm:9.9', rules=null, natives=null, extract=null}, Library{descriptor='org.ow2.asm:asm-analysis:9.9', rules=null, natives=null, extract=null}, Library{descriptor='org.ow2.asm:asm-commons:9.9', rules=null, natives=null, extract=null}, Library{descriptor='org.ow2.asm:asm-tree:9.9', rules=null, natives=null, extract=null}, Library{descriptor='org.ow2.asm:asm-util:9.9', rules=null, natives=null, extract=null}, Library{descriptor='net.fabricmc:sponge-mixin:0.17.2+mixin.0.8.7', rules=null, natives=null, extract=null}, Library{descriptor='net.fabricmc:intermediary:1.21.11', rules=null, natives=null, extract=null}, Library{descriptor='net.fabricmc:fabric-loader:0.19.2', rules=null, natives=null, extract=null}], mainClass='net.fabricmc.loader.impl.launch.knot.KnotClient', jar='null', minimumLauncherVersion=0}
+[22:52:44 INFO]: Installing 1.21.11 as it is required by fabric-loader-0.19.2-1.21.11
+[22:52:44 INFO]: Syncing version 1.21.11 with 1.21.11
+[22:52:44 INFO]: Download job 'Version & Libraries' started (16 threads, 85 files)
+[22:52:44 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-analysis\9.9\asm-analysis-9.9.jar for job 'Version & Libraries'... (try 0)
+[22:52:44 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3.jar for job 'Version & Libraries'... (try 0)
+[22:52:44 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows.jar for job 'Version & Libraries'... (try 0)
+[22:52:44 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-common\4.2.7.Final\netty-common-4.2.7.Final.jar for job 'Version & Libraries'... (try 0)
+[22:52:44 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows-x86.jar for job 'Version & Libraries'... (try 0)
+[22:52:44 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.25.2\log4j-api-2.25.2.jar for job 'Version & Libraries'... (try 0)
+[22:52:44 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\brigadier\1.3.10\brigadier-1.3.10.jar for job 'Version & Libraries'... (try 0)
+[22:52:44 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-resolver\4.2.7.Final\netty-resolver-4.2.7.Final.jar for job 'Version & Libraries'... (try 0)
+[22:52:44 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3.jar for job 'Version & Libraries'... (try 0)
+[22:52:44 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\it\unimi\dsi\fastutil\8.5.18\fastutil-8.5.18.jar for job 'Version & Libraries'... (try 0)
+[22:52:44 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\fabricmc\intermediary\1.21.11\intermediary-1.21.11.jar for job 'Version & Libraries'... (try 0)
+[22:52:44 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3.jar for job 'Version & Libraries'... (try 0)
+[22:52:44 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\authlib\7.0.61\authlib-7.0.61.jar for job 'Version & Libraries'... (try 0)
+[22:52:44 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-transport-classes-kqueue\4.2.7.Final\netty-transport-classes-kqueue-4.2.7.Final.jar for job 'Version & Libraries'... (try 0)
+[22:52:44 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-transport-native-unix-common\4.2.7.Final\netty-transport-native-unix-common-4.2.7.Final.jar for job 'Version & Libraries'... (try 0)
+[22:52:44 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\joml\joml\1.10.8\joml-1.10.8.jar for job 'Version & Libraries'... (try 0)
+[22:52:45 INFO]: Download job 'Java Runtime' skipped as there are no files to download
+[22:52:45 INFO]: Job 'Java Runtime' finished successfully (took 00:00:00.002)
+[22:52:47 INFO]: Download job 'Resources' started (16 threads, 142 files)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\it\unimi\dsi\fastutil\8.5.18\fastutil-8.5.18.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\fabricmc\intermediary\1.21.11\intermediary-1.21.11.jar for job 'Version & Libraries': Remote checksum matches local file
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows-x86.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-common\4.2.7.Final\netty-common-4.2.7.Final.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\text2speech\1.18.11\text2speech-1.18.11.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\joml\joml\1.10.8\joml-1.10.8.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-tree\9.9\asm-tree-9.9.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\ibm\icu\icu4j\77.1\icu4j-77.1.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.25.2\log4j-api-2.25.2.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows-arm64.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\brigadier\1.3.10\brigadier-1.3.10.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\blocklist\1.0.10\blocklist-1.0.10.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\authlib\7.0.61\authlib-7.0.61.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\java\dev\jna\jna-platform\5.17.0\jna-platform-5.17.0.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-analysis\9.9\asm-analysis-9.9.jar for job 'Version & Libraries': Remote checksum matches local file
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-transport-classes-epoll\4.2.7.Final\netty-transport-classes-epoll-4.2.7.Final.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows-x86.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows-x86.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-transport-native-unix-common\4.2.7.Final\netty-transport-native-unix-common-4.2.7.Final.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows-arm64.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\github\oshi\oshi-core\6.9.0\oshi-core-6.9.0.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows-x86.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-transport-classes-kqueue\4.2.7.Final\netty-transport-classes-kqueue-4.2.7.Final.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\at\yawk\lz4\lz4-java\1.8.1\lz4-java-1.8.1.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-resolver\4.2.7.Final\netty-resolver-4.2.7.Final.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows-x86.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\blocklist\1.0.10\blocklist-1.0.10.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\jcraft\jorbis\0.0.17\jorbis-0.0.17.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\text2speech\1.18.11\text2speech-1.18.11.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\jcraft\jorbis\0.0.17\jorbis-0.0.17.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows-arm64.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-transport-classes-epoll\4.2.7.Final\netty-transport-classes-epoll-4.2.7.Final.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-codec-http\4.2.7.Final\netty-codec-http-4.2.7.Final.jar for job 'Version & Libraries'... (try 0)
+[22:52:47 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:47 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows-arm64.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-handler\4.2.7.Final\netty-handler-4.2.7.Final.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\at\yawk\lz4\lz4-java\1.8.1\lz4-java-1.8.1.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\jtracy\1.0.37\jtracy-1.0.37-natives-windows.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows-x86.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\jtracy\1.0.37\jtracy-1.0.37.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\java\dev\jna\jna-platform\5.17.0\jna-platform-5.17.0.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows-x86.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\microsoft\azure\msal4j\1.23.1\msal4j-1.23.1.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows-x86.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-buffer\4.2.7.Final\netty-buffer-4.2.7.Final.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-codec-http\4.2.7.Final\netty-codec-http-4.2.7.Final.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\jtracy\1.0.37\jtracy-1.0.37-natives-windows.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\jtracy\1.0.37\jtracy-1.0.37.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-buffer\4.2.7.Final\netty-buffer-4.2.7.Final.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\azure\azure-json\1.4.0\azure-json-1.4.0.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\commons-codec\commons-codec\1.19.0\commons-codec-1.19.0.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\microsoft\azure\msal4j\1.23.1\msal4j-1.23.1.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows-x86.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows-x86.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\azure\azure-json\1.4.0\azure-json-1.4.0.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\fabricmc\sponge-mixin\0.17.2+mixin.0.8.7\sponge-mixin-0.17.2+mixin.0.8.7.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Making directory C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\fabricmc\sponge-mixin\0.17.2+mixin.0.8.7
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows-arm64.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\logging\1.6.11\logging-1.6.11.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\github\oshi\oshi-core\6.9.0\oshi-core-6.9.0.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows-arm64.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows-x86.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-handler\4.2.7.Final\netty-handler-4.2.7.Final.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\commons-codec\commons-codec\1.19.0\commons-codec-1.19.0.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows-x86.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-tree\9.9\asm-tree-9.9.jar for job 'Version & Libraries': Remote checksum matches local file
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-codec-compression\4.2.7.Final\netty-codec-compression-4.2.7.Final.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\logging\1.6.11\logging-1.6.11.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\patchy\2.2.10\patchy-2.2.10.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-transport\4.2.7.Final\netty-transport-4.2.7.Final.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-codec-compression\4.2.7.Final\netty-codec-compression-4.2.7.Final.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar for job 'Version & Libraries'... (try 0)
+[22:52:48 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows-x86.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:48 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows-arm64.jar for job 'Version & Libraries'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows-x86.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows-arm64.jar for job 'Version & Libraries'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\apache\logging\log4j\log4j-slf4j2-impl\2.25.2\log4j-slf4j2-impl-2.25.2.jar for job 'Version & Libraries'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\patchy\2.2.10\patchy-2.2.10.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-codec-base\4.2.7.Final\netty-codec-base-4.2.7.Final.jar for job 'Version & Libraries'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-commons\9.9\asm-commons-9.9.jar for job 'Version & Libraries'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar for job 'Version & Libraries'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-util\9.9\asm-util-9.9.jar for job 'Version & Libraries'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-transport\4.2.7.Final\netty-transport-4.2.7.Final.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows-arm64.jar for job 'Version & Libraries'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\apache\logging\log4j\log4j-slf4j2-impl\2.25.2\log4j-slf4j2-impl-2.25.2.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows-arm64.jar for job 'Version & Libraries'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-codec-base\4.2.7.Final\netty-codec-base-4.2.7.Final.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm\9.9\asm-9.9.jar for job 'Version & Libraries'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows-arm64.jar for job 'Version & Libraries'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows-x86.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3.jar for job 'Version & Libraries'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.25.2\log4j-core-2.25.2.jar for job 'Version & Libraries'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows-arm64.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\fabricmc\fabric-loader\0.19.2\fabric-loader-0.19.2.jar for job 'Version & Libraries'... (try 0)
+[22:52:49 INFO]: Making directory C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\fabricmc\fabric-loader\0.19.2
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows-arm64.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\datafixerupper\9.0.19\datafixerupper-9.0.19.jar for job 'Version & Libraries'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows-arm64.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\versions\fabric-loader-0.19.2-1.21.11\fabric-loader-0.19.2-1.21.11.jar for job 'Version & Libraries'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows-arm64.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\versions\fabric-loader-0.19.2-1.21.11\client.txt for job 'Version & Libraries'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-commons\9.9\asm-commons-9.9.jar for job 'Version & Libraries': Remote checksum matches local file
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\c5\c533d2fc97426977d1c1eebff1888b25cd104c78 for job 'Resources'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\04\04e1af475149d4fdc862ed014d4ee6014a68851f for job 'Resources'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\0b\0ba29b1988e15e2e1abe24e4fc8b119b7905099e for job 'Resources'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-util\9.9\asm-util-9.9.jar for job 'Version & Libraries': Remote checksum matches local file
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\72\72765441e17751e39b5560792ac9bd319f17ddba for job 'Resources'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\fa\fab99e88e3834916de6d11c991626bd25d33b296 for job 'Resources'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm\9.9\asm-9.9.jar for job 'Version & Libraries': Remote checksum matches local file
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\c9\c9b6536c5ad68d3b22fb0931894a848b683fa45e for job 'Resources'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows-arm64.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\61\616e847c56c6ca28c06b83bae59eda1cc12f09ea for job 'Resources'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\datafixerupper\9.0.19\datafixerupper-9.0.19.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\14\14bac6d396147c4f9ec122380695d5a80bca05ee for job 'Resources'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\5a\5a1529a207dcb72f14ca00be08d92f4170fc7aae for job 'Resources'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\94\94047628b08b4bef8f1167e3547fc1416cb60c6b for job 'Resources'... (try 0)
+[22:52:49 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.25.2\log4j-core-2.25.2.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:49 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\af\afec9daf3b8b9b00b816a1344f7112fe807cdaf7 for job 'Resources'... (try 0)
+[22:52:50 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\ibm\icu\icu4j\77.1\icu4j-77.1.jar for job 'Version & Libraries': Local file matches hash, using that
+[22:52:50 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\da\dabe70c17bb65bc08b7601c910629fd14746680c for job 'Resources'... (try 0)
+[22:52:50 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\c5\c533d2fc97426977d1c1eebff1888b25cd104c78 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:50 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\b6\b62c01b4e21cc2540174916fdb1a90e89505411e for job 'Resources'... (try 0)
+[22:52:50 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\61\616e847c56c6ca28c06b83bae59eda1cc12f09ea for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:50 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\00\000fc372f9d0533d29ef0cccd427402969181319 for job 'Resources'... (try 0)
+[22:52:50 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\c9\c9b6536c5ad68d3b22fb0931894a848b683fa45e for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:50 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\4d\4d247cd4bdc687e0afc5080286e51801f5c4ced3 for job 'Resources'... (try 0)
+[22:52:50 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\04\04e1af475149d4fdc862ed014d4ee6014a68851f for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:50 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\ef\ef07c3c73acfb6a743471583da386e7e8768192e for job 'Resources'... (try 0)
+[22:52:50 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\14\14bac6d396147c4f9ec122380695d5a80bca05ee for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:50 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\71\716dd5271c496a11b07da5e9578606694df6f2b3 for job 'Resources'... (try 0)
+[22:52:50 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\0b\0ba29b1988e15e2e1abe24e4fc8b119b7905099e for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:50 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\b9\b926c51b2458365267021bcc225a21d96ce84842 for job 'Resources'... (try 0)
+[22:52:50 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\5a\5a1529a207dcb72f14ca00be08d92f4170fc7aae for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:50 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\61\6188f4a80316e096bb460ccbdecf38dad62e7933 for job 'Resources'... (try 0)
+[22:52:50 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\fa\fab99e88e3834916de6d11c991626bd25d33b296 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:50 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\57\5791c6be6bc5448ed67a5dd8f5f286c1971f41dd for job 'Resources'... (try 0)
+[22:52:50 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\00\000fc372f9d0533d29ef0cccd427402969181319 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:50 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\7c\7cf28ea2fb76f9e89dac311089a330c0cc46414b for job 'Resources'... (try 0)
+[22:52:50 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\b6\b62c01b4e21cc2540174916fdb1a90e89505411e for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:50 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\1b\1b98b21b521d00149baa58f7ab75f2cc9dc7a672 for job 'Resources'... (try 0)
+[22:52:50 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\72\72765441e17751e39b5560792ac9bd319f17ddba for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:50 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\56\567b9c8104b212b4c7d554252e1896455d3a559c for job 'Resources'... (try 0)
+[22:52:50 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\94\94047628b08b4bef8f1167e3547fc1416cb60c6b for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:50 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\d4\d4b73e45a7d35cd9ffd4ef3d550ceeae03108ca8 for job 'Resources'... (try 0)
+[22:52:51 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\4d\4d247cd4bdc687e0afc5080286e51801f5c4ced3 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:51 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\09\0962120bb76ea797daaf323d1ad466eb5010eb7a for job 'Resources'... (try 0)
+[22:52:51 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\71\716dd5271c496a11b07da5e9578606694df6f2b3 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:51 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\49\496489a13f50b69d982a63db716629ac231e7684 for job 'Resources'... (try 0)
+[22:52:51 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\61\6188f4a80316e096bb460ccbdecf38dad62e7933 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:51 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\08\08e106fc7117541b2925fda25ada37936e1c0160 for job 'Resources'... (try 0)
+[22:52:51 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\ef\ef07c3c73acfb6a743471583da386e7e8768192e for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:51 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\10\10bea6a54e96b5c1c2ce5eb96dd98389ec405171 for job 'Resources'... (try 0)
+[22:52:51 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\7c\7cf28ea2fb76f9e89dac311089a330c0cc46414b for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:51 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\79\792db882fe02192ef3a724525aae8918b10c7781 for job 'Resources'... (try 0)
+[22:52:51 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\1b\1b98b21b521d00149baa58f7ab75f2cc9dc7a672 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:51 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\f6\f63c2665a0cb75638b16d431580461b26de216db for job 'Resources'... (try 0)
+[22:52:51 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\d4\d4b73e45a7d35cd9ffd4ef3d550ceeae03108ca8 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:51 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\d2\d243d14a24b1fd28a0f67097ce8527369d5ce513 for job 'Resources'... (try 0)
+[22:52:51 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\09\0962120bb76ea797daaf323d1ad466eb5010eb7a for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:51 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\fe\fedcdb1d11ed13f781a5c4a87faebb505dd3a372 for job 'Resources'... (try 0)
+[22:52:51 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\49\496489a13f50b69d982a63db716629ac231e7684 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:51 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\f8\f8802eeb8ba113138c8e12c3daf4aae6fec8f226 for job 'Resources'... (try 0)
+[22:52:51 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\b9\b926c51b2458365267021bcc225a21d96ce84842 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:51 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\c0\c090b6e466ade219da4a10d9ea2f2649f6871dbd for job 'Resources'... (try 0)
+[22:52:52 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\56\567b9c8104b212b4c7d554252e1896455d3a559c for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:52 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\81\811fc751fc7c540f0f26942bb5f62de060558377 for job 'Resources'... (try 0)
+[22:52:52 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\79\792db882fe02192ef3a724525aae8918b10c7781 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:52 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\2f\2f29b21e8854b347bca7debeda6f1e16cda9e6cc for job 'Resources'... (try 0)
+[22:52:52 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\10\10bea6a54e96b5c1c2ce5eb96dd98389ec405171 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:52 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\de\dee2c0bb4281e8fed99fbdc8dd7001df442ab95d for job 'Resources'... (try 0)
+[22:52:52 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\f6\f63c2665a0cb75638b16d431580461b26de216db for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:52 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\58\58b8c7d65ede0f5482798529b0e58c2de4449051 for job 'Resources'... (try 0)
+[22:52:52 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\fe\fedcdb1d11ed13f781a5c4a87faebb505dd3a372 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:52 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\78\78439cba24aa40c4cf55a009db94e5e889e1447c for job 'Resources'... (try 0)
+[22:52:52 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\57\5791c6be6bc5448ed67a5dd8f5f286c1971f41dd for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:52 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\d8\d8bee424b153da6cb2eafaa3436eb2b98e9c9d3d for job 'Resources'... (try 0)
+[22:52:52 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\fabricmc\fabric-loader\0.19.2\fabric-loader-0.19.2.jar for job 'Version & Libraries': Downloaded successfully and checksum matched
+[22:52:52 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\97\9790ff78c3cbc03f3fe51e1c774ef3fc42da4367 for job 'Resources'... (try 0)
+[22:52:52 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\f8\f8802eeb8ba113138c8e12c3daf4aae6fec8f226 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:52 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\02\024733b7b3127b33fdb2632d3a1f69ffa24bcb0b for job 'Resources'... (try 0)
+[22:52:52 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\d2\d243d14a24b1fd28a0f67097ce8527369d5ce513 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:52 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\20\20ebf580d7c17f8c173e0f1d757a8c08179abee7 for job 'Resources'... (try 0)
+[22:52:52 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\08\08e106fc7117541b2925fda25ada37936e1c0160 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:52 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\85\8541b2656cbe849d3e252b50067f5079b833bed4 for job 'Resources'... (try 0)
+[22:52:52 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\af\afec9daf3b8b9b00b816a1344f7112fe807cdaf7 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:52 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\3e\3e46a3d03837a0dd51a28741742475f6be36d07d for job 'Resources'... (try 0)
+[22:52:52 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\2f\2f29b21e8854b347bca7debeda6f1e16cda9e6cc for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:52 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\30\30fee8d63df4ca07df4ac833db75ebd0702c3ce5 for job 'Resources'... (try 0)
+[22:52:52 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\da\dabe70c17bb65bc08b7601c910629fd14746680c for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:52 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\aa\aabefee062b45596668f5d059e7f569078136ec7 for job 'Resources'... (try 0)
+[22:52:53 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\58\58b8c7d65ede0f5482798529b0e58c2de4449051 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:53 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\39\393fc8fc479904d3718041f5b2bc606d426e8f0d for job 'Resources'... (try 0)
+[22:52:53 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\de\dee2c0bb4281e8fed99fbdc8dd7001df442ab95d for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:53 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\a4\a4d678527e2e982da229dbece52490b232d31b47 for job 'Resources'... (try 0)
+[22:52:53 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\3e\3e46a3d03837a0dd51a28741742475f6be36d07d for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:53 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\2b\2ba56cadf3ef4a832049ca22e6c7d8cc5980a996 for job 'Resources'... (try 0)
+[22:52:53 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\2b\2ba56cadf3ef4a832049ca22e6c7d8cc5980a996 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:53 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\5a\5a69322f7cfc4678191f1aa2f8724573eb13cb09 for job 'Resources'... (try 0)
+[22:52:53 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\02\024733b7b3127b33fdb2632d3a1f69ffa24bcb0b for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:53 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\46\46635629cc44934033b5dcc91b38a1c0e6dd8bb2 for job 'Resources'... (try 0)
+[22:52:53 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\d8\d8bee424b153da6cb2eafaa3436eb2b98e9c9d3d for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:53 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\12\12818f02f6f70d7fa09f82dce88e8234e4b3dc58 for job 'Resources'... (try 0)
+[22:52:53 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\78\78439cba24aa40c4cf55a009db94e5e889e1447c for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:53 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\9f\9f68e9610e49b107bd8bec928bd4bc025b111afa for job 'Resources'... (try 0)
+[22:52:53 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\c0\c090b6e466ade219da4a10d9ea2f2649f6871dbd for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:53 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\19\19dc66985bef0f6949a34e37c18b8bf37424f5a3 for job 'Resources'... (try 0)
+[22:52:53 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\81\811fc751fc7c540f0f26942bb5f62de060558377 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:53 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\50\50c11a86f7b8cf0c626de53f2a34d1f14c8a44b2 for job 'Resources'... (try 0)
+[22:52:53 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\30\30fee8d63df4ca07df4ac833db75ebd0702c3ce5 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:53 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\24\24ab42c5037e9da09b8704478a5cca40ee9b557f for job 'Resources'... (try 0)
+[22:52:53 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\85\8541b2656cbe849d3e252b50067f5079b833bed4 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:53 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\9d\9d103a4dbfd3b8127ce0e0514b4bacd429c34717 for job 'Resources'... (try 0)
+[22:52:53 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\5a\5a69322f7cfc4678191f1aa2f8724573eb13cb09 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:53 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\6f\6f6bc6a9111459f0e10c5d1513fbc5b3d3ccd56f for job 'Resources'... (try 0)
+[22:52:53 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\39\393fc8fc479904d3718041f5b2bc606d426e8f0d for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:53 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\12\12795de7a43c834ff6b617fee734041cc791d039 for job 'Resources'... (try 0)
+[22:52:53 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\a4\a4d678527e2e982da229dbece52490b232d31b47 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:53 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\2c\2c770ae36d37537af446bd69551e57bb78b16eb4 for job 'Resources'... (try 0)
+[22:52:54 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\20\20ebf580d7c17f8c173e0f1d757a8c08179abee7 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:54 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\11\11d09840b67ff73cd7066c888a1ddc11c75f3951 for job 'Resources'... (try 0)
+[22:52:54 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\6f\6f6bc6a9111459f0e10c5d1513fbc5b3d3ccd56f for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:54 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\72\7286e455e15996be98ad6d4b6351287b7e834729 for job 'Resources'... (try 0)
+[22:52:54 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\9f\9f68e9610e49b107bd8bec928bd4bc025b111afa for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:54 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\2b\2b123f0effa396bc86e21e1ed540b564f596ea87 for job 'Resources'... (try 0)
+[22:52:54 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\24\24ab42c5037e9da09b8704478a5cca40ee9b557f for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:54 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\9e\9e03e8b757383cc5bb9a08a1af194d20197d1678 for job 'Resources'... (try 0)
+[22:52:54 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\12\12818f02f6f70d7fa09f82dce88e8234e4b3dc58 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:54 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\a9\a9ffc15c3ada2d73353aa5b84c273a9fd24463e3 for job 'Resources'... (try 0)
+[22:52:54 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\46\46635629cc44934033b5dcc91b38a1c0e6dd8bb2 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:54 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\5a\5a390234b3e60637c99e93ccbd8e30307f3a2e69 for job 'Resources'... (try 0)
+[22:52:54 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\12\12795de7a43c834ff6b617fee734041cc791d039 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:54 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\a5\a51524e7903d8f34a86cd872aec76afb41456212 for job 'Resources'... (try 0)
+[22:52:54 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\50\50c11a86f7b8cf0c626de53f2a34d1f14c8a44b2 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:54 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\4d\4d33800cbda189e7cbaa399a35ff52a7ad48e407 for job 'Resources'... (try 0)
+[22:52:54 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\72\7286e455e15996be98ad6d4b6351287b7e834729 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:54 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\68\68135461eae14b46bfb304b1a2409f60f9baebdf for job 'Resources'... (try 0)
+[22:52:54 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\97\9790ff78c3cbc03f3fe51e1c774ef3fc42da4367 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:54 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\87\87af7511fe95a72acfa0d311b42929671ba11d17 for job 'Resources'... (try 0)
+[22:52:54 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\9e\9e03e8b757383cc5bb9a08a1af194d20197d1678 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:54 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\00\008c38249b5c551ef22ac71ebf161fb1862c4099 for job 'Resources'... (try 0)
+[22:52:54 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\2c\2c770ae36d37537af446bd69551e57bb78b16eb4 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:54 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\fd\fd237be3f4d3656c5c204bc278fae5cf5b9a359a for job 'Resources'... (try 0)
+[22:52:54 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\5a\5a390234b3e60637c99e93ccbd8e30307f3a2e69 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:54 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\98\98ec41f075dcdb65bf613cdb01f065381c674230 for job 'Resources'... (try 0)
+[22:52:54 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\11\11d09840b67ff73cd7066c888a1ddc11c75f3951 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:54 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\2c\2c1d09eeb514b21119ce3cfd820891deddfe2d3a for job 'Resources'... (try 0)
+[22:52:54 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\aa\aabefee062b45596668f5d059e7f569078136ec7 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:54 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\85\85b65717c6a2fbf289d790feeec516045d4cabeb for job 'Resources'... (try 0)
+[22:52:54 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\a5\a51524e7903d8f34a86cd872aec76afb41456212 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:54 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\1e\1e118f21fa49c66a748767e7ddca40819aadf6c9 for job 'Resources'... (try 0)
+[22:52:54 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\a9\a9ffc15c3ada2d73353aa5b84c273a9fd24463e3 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:54 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\1d\1db9461b2989cb2ef708df85e55dfea34fc2e81b for job 'Resources'... (try 0)
+[22:52:55 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\68\68135461eae14b46bfb304b1a2409f60f9baebdf for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:55 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\79\794f8075b0436a657a687aedc140e2ebf8945050 for job 'Resources'... (try 0)
+[22:52:55 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\2b\2b123f0effa396bc86e21e1ed540b564f596ea87 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:55 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\27\278889afd5e45a168ee76c92c71a49882b27ad0c for job 'Resources'... (try 0)
+[22:52:55 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\9d\9d103a4dbfd3b8127ce0e0514b4bacd429c34717 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:55 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\e4\e4f5057f60774e4881cd35cbd7a27acee18f1942 for job 'Resources'... (try 0)
+[22:52:55 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\19\19dc66985bef0f6949a34e37c18b8bf37424f5a3 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:55 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\84\84c632274e27c0e2b3fe5193c83d2b4ace34054a for job 'Resources'... (try 0)
+[22:52:55 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\4d\4d33800cbda189e7cbaa399a35ff52a7ad48e407 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:55 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\a3\a3579d611b246b07a4d59152fbf074fa12598ed4 for job 'Resources'... (try 0)
+[22:52:55 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\87\87af7511fe95a72acfa0d311b42929671ba11d17 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:55 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\ed\edd4c92ecfeb19104aa83b56e75aacc2bc541ea3 for job 'Resources'... (try 0)
+[22:52:55 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\1e\1e118f21fa49c66a748767e7ddca40819aadf6c9 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:55 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\62\62c5ce1fa3f3eb4d23a676e25346344bc3444606 for job 'Resources'... (try 0)
+[22:52:55 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\98\98ec41f075dcdb65bf613cdb01f065381c674230 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:55 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\d6\d6d2cfddac6fdb5b5dbacac43c12c0579773c345 for job 'Resources'... (try 0)
+[22:52:55 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\fd\fd237be3f4d3656c5c204bc278fae5cf5b9a359a for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:55 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\17\170be32a48736a4b368a60b7201d8a507e1ce2d0 for job 'Resources'... (try 0)
+[22:52:55 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\2c\2c1d09eeb514b21119ce3cfd820891deddfe2d3a for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:55 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\7d\7d4deb779e6053151205c3f0b65ac273113c3ce6 for job 'Resources'... (try 0)
+[22:52:55 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\79\794f8075b0436a657a687aedc140e2ebf8945050 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:55 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\14\146961cec36dfe8f7a8fa2a58aab3ec6b8f8eaac for job 'Resources'... (try 0)
+[22:52:55 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\1d\1db9461b2989cb2ef708df85e55dfea34fc2e81b for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:55 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\97\97166da989371446edb4155f3c46069677c8f275 for job 'Resources'... (try 0)
+[22:52:55 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\27\278889afd5e45a168ee76c92c71a49882b27ad0c for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:55 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\44\4461d5c3c4bfd8285ff9a2786e81bf5e3983ee42 for job 'Resources'... (try 0)
+[22:52:56 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\62\62c5ce1fa3f3eb4d23a676e25346344bc3444606 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:56 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\12\126d3ef1df9ee043d931d351a7c5763a6224913d for job 'Resources'... (try 0)
+[22:52:56 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\e4\e4f5057f60774e4881cd35cbd7a27acee18f1942 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:56 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\77\77374fb85a2e967c5d925801ed2478ffd5d3f42f for job 'Resources'... (try 0)
+[22:52:56 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\84\84c632274e27c0e2b3fe5193c83d2b4ace34054a for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:56 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\59\5969b6385bf8fd07b8214e48da372dedb9781a13 for job 'Resources'... (try 0)
+[22:52:56 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\a3\a3579d611b246b07a4d59152fbf074fa12598ed4 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:56 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\db\db14cb4da0171bac4f61b0a0f306fd3c0a279965 for job 'Resources'... (try 0)
+[22:52:56 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\85\85b65717c6a2fbf289d790feeec516045d4cabeb for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:56 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\d4\d4799f8a963c7469c2fadb37b6d44619a3e51d1d for job 'Resources'... (try 0)
+[22:52:56 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\d6\d6d2cfddac6fdb5b5dbacac43c12c0579773c345 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:56 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\3f\3f180e527bb9e75cdfd2ab7d63a5c1f793c13a61 for job 'Resources'... (try 0)
+[22:52:56 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\ed\edd4c92ecfeb19104aa83b56e75aacc2bc541ea3 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:56 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\1a\1ad5852761d0ef71c0faa5eff39fbaff5194a166 for job 'Resources'... (try 0)
+[22:52:56 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\versions\fabric-loader-0.19.2-1.21.11\client.txt for job 'Version & Libraries': Downloaded successfully and hash matched
+[22:52:56 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\e7\e7440bf5cfafe37f242595c17155e8234d4d5755 for job 'Resources'... (try 0)
+[22:52:56 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\12\126d3ef1df9ee043d931d351a7c5763a6224913d for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:56 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\e1\e15c4fd115648bc497d1bf7b1517692d9a1a24fd for job 'Resources'... (try 0)
+[22:52:56 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\00\008c38249b5c551ef22ac71ebf161fb1862c4099 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:56 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\e2\e23af02f0969110acf55b6fdbba665a0b095831d for job 'Resources'... (try 0)
+[22:52:56 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\7d\7d4deb779e6053151205c3f0b65ac273113c3ce6 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:56 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\63\638f38ba803355014b35f008841f41af1a512632 for job 'Resources'... (try 0)
+[22:52:56 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\14\146961cec36dfe8f7a8fa2a58aab3ec6b8f8eaac for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:56 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\60\60d9c0736f6e81a9a7851dd48636fe40a3c55a38 for job 'Resources'... (try 0)
+[22:52:56 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\44\4461d5c3c4bfd8285ff9a2786e81bf5e3983ee42 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:56 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\e5\e5825ea688c5da0e9a796a1c04b0c157278b61ef for job 'Resources'... (try 0)
+[22:52:56 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\17\170be32a48736a4b368a60b7201d8a507e1ce2d0 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:56 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\7a\7a1b8b3a6a6d009c3b3cb583b04dd393efa12c31 for job 'Resources'... (try 0)
+[22:52:56 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\db\db14cb4da0171bac4f61b0a0f306fd3c0a279965 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:56 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\ee\ee1e7c301376bb0285531d32e228fda773820c13 for job 'Resources'... (try 0)
+[22:52:56 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\77\77374fb85a2e967c5d925801ed2478ffd5d3f42f for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:56 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\e2\e26eea39dec8e3b870725221df8505ccc651b95d for job 'Resources'... (try 0)
+[22:52:57 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\59\5969b6385bf8fd07b8214e48da372dedb9781a13 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:57 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\3a\3ab098be6058a12b1bf8d10487d821ae053bee72 for job 'Resources'... (try 0)
+[22:52:57 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\63\638f38ba803355014b35f008841f41af1a512632 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:57 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\d9\d9486d5a7a28e0f9aec0dc24da6c6b9396f0e5bf for job 'Resources'... (try 0)
+[22:52:57 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\1a\1ad5852761d0ef71c0faa5eff39fbaff5194a166 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:57 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\9d\9d3a5f0a5a02d0fc75165d00df066ab9f3e66630 for job 'Resources'... (try 0)
+[22:52:57 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\97\97166da989371446edb4155f3c46069677c8f275 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:57 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\81\81a4ead8d57fde980f1f9c6e0929066940e73d7d for job 'Resources'... (try 0)
+[22:52:57 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\e1\e15c4fd115648bc497d1bf7b1517692d9a1a24fd for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:57 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\19\19de05f520323abb956c8897bb8fbf646acf50ce for job 'Resources'... (try 0)
+[22:52:57 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\3f\3f180e527bb9e75cdfd2ab7d63a5c1f793c13a61 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:57 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\1f\1f3afed68ec298ae82e612dcc05d7a36c09cc675 for job 'Resources'... (try 0)
+[22:52:57 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\e5\e5825ea688c5da0e9a796a1c04b0c157278b61ef for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:57 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\7a\7a1b8b3a6a6d009c3b3cb583b04dd393efa12c31 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:57 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\02\0232e6b231a75ee75a36d51255df50c908b83080 for job 'Resources'... (try 0)
+[22:52:57 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\37\37ba6c0b7fc410ea66337baf2e75e75a23d399a0 for job 'Resources'... (try 0)
+[22:52:57 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\60\60d9c0736f6e81a9a7851dd48636fe40a3c55a38 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:57 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\ea\eaaaa07d40300bd77069e8e4b8bea84bcfdab097 for job 'Resources'... (try 0)
+[22:52:57 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\e2\e23af02f0969110acf55b6fdbba665a0b095831d for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:57 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\89\8973f869d48c598f78730b7dfd622dd211f97ff7 for job 'Resources'... (try 0)
+[22:52:57 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\ee\ee1e7c301376bb0285531d32e228fda773820c13 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:57 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\22\22ba47264b4b95a3e35a3aa5f498133abf91c87f for job 'Resources'... (try 0)
+[22:52:57 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\19\19de05f520323abb956c8897bb8fbf646acf50ce for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:57 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\53\53319ea386a973620d08ef9231f74ce172a7110f for job 'Resources'... (try 0)
+[22:52:57 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\d4\d4799f8a963c7469c2fadb37b6d44619a3e51d1d for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:57 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\41\4166690596546ec774813005d86e5c5c3d39a419 for job 'Resources'... (try 0)
+[22:52:57 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\e2\e26eea39dec8e3b870725221df8505ccc651b95d for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:57 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\80\80d52f796cc30e71ec18f4b23ab2a86494681cbc for job 'Resources'... (try 0)
+[22:52:57 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\81\81a4ead8d57fde980f1f9c6e0929066940e73d7d for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:57 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\04\04e7db063f1dc93d3c039a61c426ef3e48835453 for job 'Resources'... (try 0)
+[22:52:57 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\d9\d9486d5a7a28e0f9aec0dc24da6c6b9396f0e5bf for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:57 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\bf\bf3ff51f820fa65eb04e30a6865259e23ee91e0c for job 'Resources'... (try 0)
+[22:52:57 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\9d\9d3a5f0a5a02d0fc75165d00df066ab9f3e66630 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:57 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\42\42cbb51641d6617660566fd8eaac05587d4b82f6 for job 'Resources'... (try 0)
+[22:52:58 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\ea\eaaaa07d40300bd77069e8e4b8bea84bcfdab097 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:58 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\2e\2e94a5f4fab17f41ab12e872e7854e1ca21b7505 for job 'Resources'... (try 0)
+[22:52:58 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\3a\3ab098be6058a12b1bf8d10487d821ae053bee72 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:58 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\12\122fa1112d241cd8f2cb3220d0de866139d3e1b3 for job 'Resources'... (try 0)
+[22:52:58 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\02\0232e6b231a75ee75a36d51255df50c908b83080 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:58 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\a2\a2acb656a4c0b583509feff269883874d3b880ad for job 'Resources'... (try 0)
+[22:52:58 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\37\37ba6c0b7fc410ea66337baf2e75e75a23d399a0 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:58 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\a3\a3110c064de6f528209fd1d60cb0055764d3e70a for job 'Resources'... (try 0)
+[22:52:58 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\53\53319ea386a973620d08ef9231f74ce172a7110f for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:58 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\64\642960bbb79714eedfe99fce23cf5fc48fa97cf9 for job 'Resources'... (try 0)
+[22:52:58 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\22\22ba47264b4b95a3e35a3aa5f498133abf91c87f for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:58 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\ce\ce5543896caf72cea91501d6ca1994dd7abb8990 for job 'Resources'... (try 0)
+[22:52:58 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\1f\1f3afed68ec298ae82e612dcc05d7a36c09cc675 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:58 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\6c\6ca92a7947837d7a65625535d3b6dcaa22ed12dc for job 'Resources'... (try 0)
+[22:52:58 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\04\04e7db063f1dc93d3c039a61c426ef3e48835453 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:58 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\1d\1d5afcd7eec344188adf135548f53a3bc5d33bf2 for job 'Resources'... (try 0)
+[22:52:58 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\80\80d52f796cc30e71ec18f4b23ab2a86494681cbc for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:58 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\80\809e938853b6e44662b4952d3d3d82ab84696090 for job 'Resources'... (try 0)
+[22:52:58 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\bf\bf3ff51f820fa65eb04e30a6865259e23ee91e0c for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:58 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\f9\f926ed0c0a954cc53e88626c76696c9df2f70249 for job 'Resources'... (try 0)
+[22:52:58 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\12\122fa1112d241cd8f2cb3220d0de866139d3e1b3 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:58 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\3c\3ca3254f0c891f9d2f29b952816546478b29392a for job 'Resources'... (try 0)
+[22:52:58 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\42\42cbb51641d6617660566fd8eaac05587d4b82f6 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:58 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\ed\edbf56d4e13101cb17b603d2910092b5129608ea for job 'Resources'... (try 0)
+[22:52:58 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\64\642960bbb79714eedfe99fce23cf5fc48fa97cf9 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:58 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\7b\7bc1398178c408444898e29fe9a7440e5bdab0f1 for job 'Resources'... (try 0)
+[22:52:58 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\41\4166690596546ec774813005d86e5c5c3d39a419 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:58 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\00\0087604b227bb147f7e14671e4f291e6893c739e for job 'Resources'... (try 0)
+[22:52:58 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\1d\1d5afcd7eec344188adf135548f53a3bc5d33bf2 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:58 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\74\744bcbe5546d405ea142ec4f93fb5959f18ffb5c for job 'Resources'... (try 0)
+[22:52:58 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\a3\a3110c064de6f528209fd1d60cb0055764d3e70a for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:58 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\e6\e64483f128d19eb40b4248e3ce956bca33a312eb for job 'Resources'... (try 0)
+[22:52:59 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\ce\ce5543896caf72cea91501d6ca1994dd7abb8990 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:59 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\bb\bb4cff11995d65f26d8195edcbb5adea39e73b8c for job 'Resources'... (try 0)
+[22:52:59 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\a2\a2acb656a4c0b583509feff269883874d3b880ad for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:59 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\85\85f9d394d28e4f90006721392262e2fbc238b65e for job 'Resources'... (try 0)
+[22:52:59 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\2e\2e94a5f4fab17f41ab12e872e7854e1ca21b7505 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:59 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\7b\7bc1398178c408444898e29fe9a7440e5bdab0f1 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:59 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\3c\3ca3254f0c891f9d2f29b952816546478b29392a for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:59 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\6c\6ca92a7947837d7a65625535d3b6dcaa22ed12dc for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:59 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\f9\f926ed0c0a954cc53e88626c76696c9df2f70249 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:59 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\ed\edbf56d4e13101cb17b603d2910092b5129608ea for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:59 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\74\744bcbe5546d405ea142ec4f93fb5959f18ffb5c for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:59 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\80\809e938853b6e44662b4952d3d3d82ab84696090 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:59 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\bb\bb4cff11995d65f26d8195edcbb5adea39e73b8c for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:59 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\e6\e64483f128d19eb40b4248e3ce956bca33a312eb for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:59 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\e7\e7440bf5cfafe37f242595c17155e8234d4d5755 for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:59 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\85\85f9d394d28e4f90006721392262e2fbc238b65e for job 'Resources': Downloaded asset and hash matched successfully
+[22:52:59 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\00\0087604b227bb147f7e14671e4f291e6893c739e for job 'Resources': Downloaded asset and hash matched successfully
+[22:53:00 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\assets\objects\89\8973f869d48c598f78730b7dfd622dd211f97ff7 for job 'Resources': Downloaded asset and hash matched successfully
+[22:53:00 INFO]: Job 'Resources' finished successfully (took 00:00:12.341)
+[22:53:01 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\versions\fabric-loader-0.19.2-1.21.11\fabric-loader-0.19.2-1.21.11.jar for job 'Version & Libraries': Downloaded successfully and hash matched
+[22:54:33 WARN]: Couldn't download https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.17.2+mixin.0.8.7/sponge-mixin-0.17.2+mixin.0.8.7.jar for job 'Version & Libraries'
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.read(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(Unknown Source)
+	at java.base/java.net.Socket$SocketInputStream.read(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readFully(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source)
+	at java.base/java.io.BufferedInputStream.read1(Unknown Source)
+	at java.base/java.io.BufferedInputStream.implRead(Unknown Source)
+	at java.base/java.io.BufferedInputStream.read(Unknown Source)
+	at java.base/sun.net.www.MeteredStream.read(Unknown Source)
+	at java.base/java.io.FilterInputStream.read(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(Unknown Source)
+	at com.mojang.launcher.updater.download.MonitoringInputStream.read(MonitoringInputStream.java:28)
+	at com.mojang.launcher.updater.download.Downloadable.copyAndDigest(Downloadable.java:146)
+	at com.mojang.launcher.updater.download.ChecksummedDownloadable.download(ChecksummedDownloadable.java:64)
+	at com.mojang.launcher.updater.download.DownloadJob.popAndDownload(DownloadJob.java:103)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+[22:54:33 INFO]: Attempting to download C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\fabricmc\sponge-mixin\0.17.2+mixin.0.8.7\sponge-mixin-0.17.2+mixin.0.8.7.jar for job 'Version & Libraries'... (try 1)
+[22:54:33 INFO]: Finished downloading C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\fabricmc\sponge-mixin\0.17.2+mixin.0.8.7\sponge-mixin-0.17.2+mixin.0.8.7.jar for job 'Version & Libraries': Downloaded successfully and checksum matched
+[22:54:33 INFO]: Job 'Version & Libraries' finished successfully (took 00:01:49.272)
+[22:54:33 INFO]: Launching game
+[22:54:33 INFO]: Unpacking natives to C:\Users\Hizuka\AppData\Roaming\.minecraft\versions\fabric-loader-0.19.2-1.21.11\fabric-loader-0.19.2-1.21.11-natives-761602915244
+[22:54:33 INFO]: Launching in C:\Users\Hizuka\AppData\Roaming\.minecraft
+[22:54:35 INFO]: Using java at C:\Users\Hizuka\AppData\Roaming\.minecraft\runtime\java-runtime-delta\windows-x64\java-runtime-delta
+[22:54:35 INFO]: Setting user memory to 4096 MB from profile
+[22:54:35 INFO]: Compatibility mode is enabled
+[22:54:35 INFO]: Half command: C:\Users\Hizuka\AppData\Roaming\.minecraft\runtime\java-runtime-delta\windows-x64\java-runtime-delta\bin\javaw.exe -Xdiag -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -Xmx4096m -DMcEmu=net.minecraft.client.main.Main -Dlog4j2.formatMsgNoLookups=true -Djava.rmi.server.useCodebaseOnly=true -Dcom.sun.jndi.rmi.object.trustURLCodebase=false -Dcom.sun.jndi.cosnaming.object.trustURLCodebase=false -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path=C:\Users\Hizuka\AppData\Roaming\.minecraft\versions\fabric-loader-0.19.2-1.21.11\fabric-loader-0.19.2-1.21.11-natives-761602915244 -Djna.tmpdir=C:\Users\Hizuka\AppData\Roaming\.minecraft\versions\fabric-loader-0.19.2-1.21.11\fabric-loader-0.19.2-1.21.11-natives-761602915244 -Dorg.lwjgl.system.SharedLibraryExtractPath=C:\Users\Hizuka\AppData\Roaming\.minecraft\versions\fabric-loader-0.19.2-1.21.11\fabric-loader-0.19.2-1.21.11-natives-761602915244 -Dio.netty.native.workdir=C:\Users\Hizuka\AppData\Roaming\.minecraft\versions\fabric-loader-0.19.2-1.21.11\fabric-loader-0.19.2-1.21.11-natives-761602915244 -Dminecraft.launcher.brand=java-minecraft-launcher -Dminecraft.launcher.version=1.6.93 -cp C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm\9.9\asm-9.9.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-analysis\9.9\asm-analysis-9.9.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-commons\9.9\asm-commons-9.9.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-tree\9.9\asm-tree-9.9.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-util\9.9\asm-util-9.9.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\fabricmc\sponge-mixin\0.17.2+mixin.0.8.7\sponge-mixin-0.17.2+mixin.0.8.7.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\fabricmc\intermediary\1.21.11\intermediary-1.21.11.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\fabricmc\fabric-loader\0.19.2\fabric-loader-0.19.2.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\at\yawk\lz4\lz4-java\1.8.1\lz4-java-1.8.1.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\azure\azure-json\1.4.0\azure-json-1.4.0.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\github\oshi\oshi-core\6.9.0\oshi-core-6.9.0.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\ibm\icu\icu4j\77.1\icu4j-77.1.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\microsoft\azure\msal4j\1.23.1\msal4j-1.23.1.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\authlib\7.0.61\authlib-7.0.61.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\blocklist\1.0.10\blocklist-1.0.10.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\brigadier\1.3.10\brigadier-1.3.10.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\datafixerupper\9.0.19\datafixerupper-9.0.19.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\jtracy\1.0.37\jtracy-1.0.37.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\jtracy\1.0.37\jtracy-1.0.37-natives-windows.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\logging\1.6.11\logging-1.6.11.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\patchy\2.2.10\patchy-2.2.10.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\com\mojang\text2speech\1.18.11\text2speech-1.18.11.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\commons-codec\commons-codec\1.19.0\commons-codec-1.19.0.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-buffer\4.2.7.Final\netty-buffer-4.2.7.Final.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-codec-base\4.2.7.Final\netty-codec-base-4.2.7.Final.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-codec-compression\4.2.7.Final\netty-codec-compression-4.2.7.Final.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-codec-http\4.2.7.Final\netty-codec-http-4.2.7.Final.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-common\4.2.7.Final\netty-common-4.2.7.Final.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-handler\4.2.7.Final\netty-handler-4.2.7.Final.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-resolver\4.2.7.Final\netty-resolver-4.2.7.Final.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-transport-classes-epoll\4.2.7.Final\netty-transport-classes-epoll-4.2.7.Final.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-transport-classes-kqueue\4.2.7.Final\netty-transport-classes-kqueue-4.2.7.Final.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-transport-native-unix-common\4.2.7.Final\netty-transport-native-unix-common-4.2.7.Final.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\io\netty\netty-transport\4.2.7.Final\netty-transport-4.2.7.Final.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\it\unimi\dsi\fastutil\8.5.18\fastutil-8.5.18.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\java\dev\jna\jna-platform\5.17.0\jna-platform-5.17.0.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.25.2\log4j-api-2.25.2.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.25.2\log4j-core-2.25.2.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\apache\logging\log4j\log4j-slf4j2-impl\2.25.2\log4j-slf4j2-impl-2.25.2.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\jcraft\jorbis\0.0.17\jorbis-0.0.17.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\joml\joml\1.10.8\joml-1.10.8.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows-arm64.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-freetype\3.3.3\lwjgl-freetype-3.3.3-natives-windows-x86.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows-arm64.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.3\lwjgl-glfw-3.3.3-natives-windows-x86.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows-arm64.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.3\lwjgl-jemalloc-3.3.3-natives-windows-x86.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows-arm64.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.3\lwjgl-openal-3.3.3-natives-windows-x86.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows-arm64.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.3\lwjgl-opengl-3.3.3-natives-windows-x86.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows-arm64.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.3\lwjgl-stb-3.3.3-natives-windows-x86.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows-arm64.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.3\lwjgl-tinyfd-3.3.3-natives-windows-x86.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows-arm64.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\3.3.3\lwjgl-3.3.3-natives-windows-x86.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\libraries\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\Hizuka\AppData\Roaming\.minecraft\versions\fabric-loader-0.19.2-1.21.11\fabric-loader-0.19.2-1.21.11.jar -DFabricMcEmu= net.minecraft.client.main.Main  net.fabricmc.loader.impl.launch.knot.KnotClient
+[22:54:35 INFO]: Following visibility rule and hiding launcher as game is starting
+[22:54:35 INFO]: Looking for old natives & assets to clean up...
+[22:54:35 INFO]: Heavy UI resources disposed for memory saving
+[22:56:07 INFO]: Game ended with no troubles detected (exit code 0)
+[22:56:07 INFO]: Following visibility rule and showing launcher as the game has ended
+[22:56:07 INFO]: Deleting C:\Users\Hizuka\AppData\Roaming\.minecraft\versions\fabric-loader-0.19.2-1.21.11\fabric-loader-0.19.2-1.21.11-natives-761602915244
+[22:56:07 INFO]: Looking for orphaned versions to clean up...
+[22:56:07 INFO]: UI resources restored
+[22:56:07 INFO]: Version 'latest-snapshot' still unresolved; loading remaining remotes.
+[22:56:07 INFO]: Refreshing 'experimental' remote version list...
+[22:56:07 INFO]: Refreshing 'quilt' remote version list...
+[22:56:07 INFO]: Refreshing 'forge' remote version list...
+[22:56:08 INFO]: Refreshing 'neoforge' remote version list...
+[22:56:09 INFO]: Cleaning up orphaned object 00fc030eff28d14978dd348a1292a0d2781f5d25
+[22:56:09 INFO]: Cleaning up orphaned object 028f1d49c05308eebaa24ed4d52ab9067f1d3c40
+[22:56:09 INFO]: Cleaning up orphaned object 0401e526365abf7005f8e752a6c2ac8a8c08c24d
+[22:56:09 INFO]: Cleaning up orphaned object 04a5c0ffa0e889f6f4ddd9f5fa71058d94f9d119
+[22:56:09 INFO]: Cleaning up orphaned object 05d75d914006caba221e552a5f5ca02da1195d88
+[22:56:09 INFO]: Cleaning up orphaned object 09ee03eb5ba12aace3a01f6376a303cc34134964
+[22:56:09 INFO]: Cleaning up orphaned object 0fdae1ff6199ca46b192536003b0f9a3f45a023c
+[22:56:09 INFO]: Cleaning up orphaned object 10127b8bda38dd788ecdf922e2d2b97b7b851a6a
+[22:56:09 INFO]: Cleaning up orphaned object 120aebfb34187bbf84306ed37bd2abd2c0303ef0
+[22:56:09 INFO]: Cleaning up orphaned object 121424b5a48c458d60b6663b553b999c9da3758f
+[22:56:09 INFO]: Cleaning up orphaned object 12b4fd90df6cf3aeb9b1e68d963f0e633576608e
+[22:56:09 INFO]: Cleaning up orphaned object 149a85979b3e1d6b0be7cd57d906978c33960ac9
+[22:56:09 INFO]: Cleaning up orphaned object 1511f08c2b6c1e0d6171ac9b4fb560c56ae2cdcb
+[22:56:09 INFO]: Cleaning up orphaned object 1732ec7326b71939c20426d80c66daffb1f93d6a
+[22:56:09 INFO]: Cleaning up orphaned object 18738039dab1596ab39bf0e0c96c93672ed259d9
+[22:56:09 INFO]: Cleaning up orphaned object 1a0a978f07397b71c0ce00fbeee32688fbc104bd
+[22:56:09 INFO]: Cleaning up orphaned object 1ba9b611016a1da04d2a637c8136643041d001f8
+[22:56:09 INFO]: Cleaning up orphaned object 1c466e2210f4a4879b772e17244bc6d199a73d10
+[22:56:09 INFO]: Cleaning up orphaned object 1ce9a524841d1fe7b97ea0528dbd9b337d072691
+[22:56:09 INFO]: Cleaning up orphaned object 1e52170250a0b004c193ee6d62bb210f172f8897
+[22:56:09 INFO]: Cleaning up orphaned object 1f4377ed174a7145bea9887763e35855e06f82cd
+[22:56:09 INFO]: Cleaning up orphaned object 2012e83e630e96267effe922cc4a90e8c92044cd
+[22:56:09 INFO]: Cleaning up orphaned object 2186a808b8b9db437e33f4e8911ee58e05a78791
+[22:56:09 INFO]: Cleaning up orphaned object 228919413463119f90ae8ceb05bde5b6ab165ffc
+[22:56:09 INFO]: Cleaning up orphaned object 233a3a6cdd9d7f46a0105670620125b8581f4909
+[22:56:09 INFO]: Cleaning up orphaned object 243bd1f68534f9572db5a7077b9cf5f19959e7d2
+[22:56:09 INFO]: Cleaning up orphaned object 2849511bcb825973a4f7df8643154b8edf51aa6f
+[22:56:09 INFO]: Cleaning up orphaned object 2952fb1b5539f32a10c5427dbf079fffd95bed0a
+[22:56:09 INFO]: Cleaning up orphaned object 299888cf6aa93f31a1cf24a5d5ea3b2d8e9cbcc4
+[22:56:09 INFO]: Cleaning up orphaned object 2a4e890d232f3608620bccf69a5dbe7435403ed8
+[22:56:09 INFO]: Cleaning up orphaned object 2b48b25de92e227f9006e69f296e7d9f085739f3
+[22:56:09 INFO]: Cleaning up orphaned object 2b4c424da15c1ff503abb38b9d44665ce84e1219
+[22:56:09 INFO]: Cleaning up orphaned object 2b73a81e6d530222b8309f41db2ba4d8299c5f3f
+[22:56:09 INFO]: Cleaning up orphaned object 2cd9a31d823445ce0916194caf52548752a1a3f1
+[22:56:09 INFO]: Cleaning up orphaned object 33594e6e14f074515a59f8d737f141589dee1143
+[22:56:09 INFO]: Cleaning up orphaned object 35033a0e8e78c8eb735f1a794f285bee0187ef56
+[22:56:09 INFO]: Cleaning up orphaned object 35d557fb28237f47d0232a5d8e60a96fa5821aeb
+[22:56:09 INFO]: Cleaning up orphaned object 36df054ec2ad2f73b3f0158fb955c44e11102d53
+[22:56:09 INFO]: Cleaning up orphaned object 37289f0fd4b299a6689522c8b2113896486d64b6
+[22:56:09 INFO]: Cleaning up orphaned object 38584671c8c5c59284909da6611baf23fde26b4d
+[22:56:09 INFO]: Cleaning up orphaned object 3dd7974a44b55b9816894997192a969d76f7dee8
+[22:56:09 INFO]: Cleaning up orphaned object 3e447feec0036ef79a59347cd1f8a73305f5c2a0
+[22:56:09 INFO]: Cleaning up orphaned object 43deab23a0afdf84f22fdecb8911261c85aff5ee
+[22:56:09 INFO]: Cleaning up orphaned object 44528011c47dd759a4b31daca310372bcb1cad31
+[22:56:09 INFO]: Cleaning up orphaned object 49277dea2530cab222ef3333649362bfeb1fae0c
+[22:56:09 INFO]: Cleaning up orphaned object 49a76753774b3c2e4ba4b7b7a5f931b80fb49c14
+[22:56:09 INFO]: Cleaning up orphaned object 4d8b59bf4c50293574981c858c04ed850db77d08
+[22:56:09 INFO]: Cleaning up orphaned object 4d98bc86bab73ec7540bc9544ffa9498e6eafedc
+[22:56:09 INFO]: Cleaning up orphaned object 4e13e23370d57d2d22685329913e7c06b7e4e78c
+[22:56:09 INFO]: Cleaning up orphaned object 50c15f5e74a79fad46c34dfe1d2e98fcd21fa977
+[22:56:09 INFO]: Cleaning up orphaned object 51aa1cc73bac19f4303cdb04fab1af221762b31c
+[22:56:09 INFO]: Cleaning up orphaned object 526095e453148d94cd9ae29d2d5ddd671d3ee056
+[22:56:09 INFO]: Cleaning up orphaned object 56a1a633b81ce164cdf65eef017010be18609856
+[22:56:09 INFO]: Cleaning up orphaned object 5a8dcd8299c58df2c0a630bed1a7aaf7273042c4
+[22:56:09 INFO]: Cleaning up orphaned object 65ecb950262a92cc588f42ca16cb324cb96b9546
+[22:56:09 INFO]: Cleaning up orphaned object 6705c457ebdf910a86534329479141949f1c6ece
+[22:56:09 INFO]: Cleaning up orphaned object 67e4f8e2d2d4c995591c62b59bab4b738ad11fe7
+[22:56:09 INFO]: Cleaning up orphaned object 68a3ce4737a1cb70b51dae407c465bca2218a58e
+[22:56:09 INFO]: Cleaning up orphaned object 68df21bad35e859152346bec47cd796b856d9797
+[22:56:09 INFO]: Cleaning up orphaned object 69ba96967059dfb54329ece409ea08ff5eb071cf
+[22:56:09 INFO]: Cleaning up orphaned object 6c331a85cd76698eb3884d6690e6195c97cc5adf
+[22:56:09 INFO]: Cleaning up orphaned object 6d4d468b025b7955fba856f0e836c5265d4ff1b7
+[22:56:09 INFO]: Cleaning up orphaned object 75088f0cca14b74c5d20ab62dce58b5f6596511f
+[22:56:09 INFO]: Cleaning up orphaned object 75a914c31eb90d0b7a3fd8357fc5361841927055
+[22:56:09 INFO]: Cleaning up orphaned object 75b8a50208614db04e8bda4e5313857f87413662
+[22:56:09 INFO]: Cleaning up orphaned object 765eae8a53fd03ce14c837e67ec7d873de9bd0b9
+[22:56:09 INFO]: Cleaning up orphaned object 76b8a785c1fd7946a689b74495bae8ca92b4d7ef
+[22:56:09 INFO]: Cleaning up orphaned object 787fe8be64d6b04f8299781d8fc66b581ddb9125
+[22:56:09 INFO]: Cleaning up orphaned object 7915991ea8b5c3f2ffb357d27a387d67e8e261dc
+[22:56:09 INFO]: Cleaning up orphaned object 79bc771b3ef30efc3158115566be6f17aca75d81
+[22:56:09 INFO]: Cleaning up orphaned object 7e229ca844074d2c25643f4e5191efe1ea1c211c
+[22:56:09 INFO]: Cleaning up orphaned object 7ea34f117960e667717ed3a1f016e3d2ad571adb
+[22:56:09 INFO]: Cleaning up orphaned object 7fd42cd3ef57679b94f372d09bc24c8e86714b97
+[22:56:09 INFO]: Cleaning up orphaned object 82895383bda3db7a95549204689776d039380a3e
+[22:56:09 INFO]: Cleaning up orphaned object 8326fa9b98580824324b039669f7ecfe56085cc5
+[22:56:09 INFO]: Cleaning up orphaned object 83d8fc3999f503004837bb21dec3e8f935eaed6e
+[22:56:09 INFO]: Cleaning up orphaned object 84b973577d5a35c71e763ea930a1c25d4be9c445
+[22:56:09 INFO]: Cleaning up orphaned object 857acb727a61408b5816ed4975039b7b75432c9a
+[22:56:09 INFO]: Cleaning up orphaned object 86051a56b8431410766ced82a415d58710efe51f
+[22:56:09 INFO]: Cleaning up orphaned object 8ad26dec0c4a99a57dabcf66d8d8893f6ccfc60d
+[22:56:09 INFO]: Cleaning up orphaned object 8bdf61e2da3836f859b57b8fe7385fb6baad85b7
+[22:56:09 INFO]: Cleaning up orphaned object 8da8f7feca84a16c19025b2238d2374129fd61cc
+[22:56:09 INFO]: Cleaning up orphaned object 8dac4bcf96148561f453f19593780bc06f76c8b0
+[22:56:09 INFO]: Cleaning up orphaned object 9084852e9e63c2755f00c7a1c6bb06c3cd5158bd
+[22:56:09 INFO]: Cleaning up orphaned object 90cb57e8ec5bc02203f1354ad30fce00186838b1
+[22:56:09 INFO]: Cleaning up orphaned object 944f227d4c79722c19d300072dab85374c536c52
+[22:56:09 INFO]: Cleaning up orphaned object 94f08ba8b8e28a194262b050a9a507f43170cbb7
+[22:56:09 INFO]: Cleaning up orphaned object 957de4ca7ae2bf85562a41f65b86da45fc4c5afb
+[22:56:09 INFO]: Cleaning up orphaned object 95bbb94f69d2ba6087d8279a621ae80b2e522f17
+[22:56:09 INFO]: Cleaning up orphaned object 95d3ea7bbe46a3c045d7e1b7b27e42b76caae57d
+[22:56:09 INFO]: Cleaning up orphaned object 96987f36225bada5bbf5bb4b3ca4f9f93a72bee7
+[22:56:09 INFO]: Cleaning up orphaned object 9e6fcf3ee46eff17f0fbfa7ef3bf88e7529d8b5d
+[22:56:09 INFO]: Cleaning up orphaned object 9e7af2e4e0ad7ef8cd8f5e0394fa98620b9e1973
+[22:56:09 INFO]: Cleaning up orphaned object a5d8066c612bd42e1a379fd5e6def0ae14589c1c
+[22:56:09 INFO]: Cleaning up orphaned object a7d4c42ceb90c003f733449635563b2ebe71b619
+[22:56:09 INFO]: Cleaning up orphaned object a929fa70eda5ac1cc6c7a8bfad28cf2c7f99c781
+[22:56:09 INFO]: Cleaning up orphaned object ad182357080eab3293a342ce665e329438ad9128
+[22:56:09 INFO]: Cleaning up orphaned object aeb2d8ac029fa11228c1de8ed2fcba38f578c52b
+[22:56:09 INFO]: Cleaning up orphaned object b04c8ff26209706935fdd34edec7e86ee522fb5e
+[22:56:09 INFO]: Cleaning up orphaned object b27c62ecbdf3b7bd0f33bf2382284e046e7fa52b
+[22:56:09 INFO]: Cleaning up orphaned object b36e8a5773e63563703be72478874857f9d31196
+[22:56:09 INFO]: Cleaning up orphaned object b4979ac3c6390de33b2c5649a99b8b137d0be587
+[22:56:09 INFO]: Cleaning up orphaned object b49b711f9634ccd2a26cac12ad823766e1736d89
+[22:56:09 INFO]: Cleaning up orphaned object b5b833855eacc1a4c663c21f897da0a497ec5634
+[22:56:09 INFO]: Cleaning up orphaned object b719b927220a84e8038d4e3a4ec8642233c320b6
+[22:56:09 INFO]: Cleaning up orphaned object bb4cba83d1639c1310e7371d1254ce311d84b17b
+[22:56:09 INFO]: Cleaning up orphaned object bee41f2cb824778dafea0a4c786554c017e54c7d
+[22:56:09 INFO]: Cleaning up orphaned object bf867827a1942a052b140f146b1214ae6519a720
+[22:56:09 INFO]: Cleaning up orphaned object bfe9740344b96fe37fcf9f8088f73f71d5305455
+[22:56:09 INFO]: Cleaning up orphaned object c40c9092c8c12f1ded9267483a1612dcb9ec403f
+[22:56:09 INFO]: Cleaning up orphaned object c5aa93fabe83bcc15000d6fc5fde8898f8d7f2cc
+[22:56:09 INFO]: Cleaning up orphaned object cefbdbdc8a276a14e70bd99fb2c570ba364aa6b5
+[22:56:09 INFO]: Cleaning up orphaned object d0cdcbcfb0f5ca6709534d51b4d1780cff73656b
+[22:56:09 INFO]: Cleaning up orphaned object d2717e62ff9323b7b0432dca991afc09a41cd70b
+[22:56:09 INFO]: Cleaning up orphaned object d39a9b8e377bfb066ace904ad17b2303e59cf7d0
+[22:56:09 INFO]: Cleaning up orphaned object d42ffafabd153f3cf828c75e6f7e96b92ad3f1b5
+[22:56:09 INFO]: Cleaning up orphaned object d9453972be5c2eaa0e2c83c0b227f8078a509ebb
+[22:56:09 INFO]: Cleaning up orphaned object da1e3f63375a96dbd832b7c6527fe434cc7d78df
+[22:56:09 INFO]: Cleaning up orphaned object dabbd4efad663a1681a9e13c5b4d545342a43aa8
+[22:56:09 INFO]: Cleaning up orphaned object dba32434ade8e90f939f9b984d688bf3eb7cb887
+[22:56:09 INFO]: Cleaning up orphaned object dda72e7ab83132cea510df4f155ea6f90c9794ae
+[22:56:09 INFO]: Cleaning up orphaned object ddfa8f64e2d9dec912c03966ccb727f453750c35
+[22:56:09 INFO]: Cleaning up orphaned object e12ebb5f5088d153a8426d96b4fd1ee86b9a1359
+[22:56:09 INFO]: Cleaning up orphaned object e1969fd8fc5ea2ee40c8b37ffd0b2c19ed75c632
+[22:56:09 INFO]: Cleaning up orphaned object e33598dfbf8c7e8d0dd36fa39fafca7983ba6987
+[22:56:09 INFO]: Cleaning up orphaned object e74de196513ddeef6211560ba1eacbe4ee8fa139
+[22:56:09 INFO]: Cleaning up orphaned object eb854349b444d8cf6108628a0dcbef591111b926
+[22:56:09 INFO]: Cleaning up orphaned object ed62b32acf9cf823626c5f3f08e5d2fe6c307031
+[22:56:09 INFO]: Cleaning up orphaned object ee4d23dc55bf38809a68967b7588cf8b3ba85930
+[22:56:09 INFO]: Cleaning up orphaned object f1b11f03f0e07d78d416c8961a015b9d8d986b2f
+[22:56:09 INFO]: Cleaning up orphaned object f359ecdf6aeae55128dac89a244dfc6c327b5f23
+[22:56:09 INFO]: Cleaning up orphaned object f375569e6b08cf681af92caa1580665f0da6a986
+[22:56:09 INFO]: Cleaning up orphaned object f46ba14bbd8303b9b1d39ee52086e3c4eea9c4a1
+[22:56:09 INFO]: Cleaning up orphaned object f7b5aa0814643480c56c60d70fee53ab2427f288
+[22:56:09 INFO]: Cleaning up orphaned object f86522f6e7dfd4dc34781d8c7a48153bce5c75d3
+[22:56:09 INFO]: Cleaning up orphaned object fa294d90e7bd253b778aacc94b5329e4ec0f5c55
+[22:56:09 INFO]: Cleaning up orphaned object fde6d1017b04a204eaed1992f912d5d43c09521f
+[22:56:10 INFO]: Looking for old natives & assets to clean up...
+[22:56:18 INFO]: Window closed, shutting down.
+[22:56:18 INFO]: Awaiting termination.
+[22:56:18 INFO]: Goodbye.

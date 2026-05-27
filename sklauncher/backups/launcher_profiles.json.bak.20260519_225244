@@ -1,0 +1,36 @@
+{
+  "profiles": {
+    "3e91d41c3b0e4768824bcb4e24803cf6": {
+      "name": "TwiCraftMC",
+      "lastVersionId": "fabric-loader-0.19.2-1.21.11",
+      "resolution": {
+        "width": 854,
+        "height": 480,
+        "fullscreen": true
+      },
+      "compatibilityMode": true,
+      "memoryMax": 4096,
+      "type": "custom",
+      "created": "2026-05-19T22:52:14+08:00",
+      "lastUsed": "2026-05-19T22:52:14+08:00",
+      "icon": "Grass"
+    },
+    "20ec4974cbd8441698a37f3a5ab2a255": {
+      "name": "",
+      "type": "latest-snapshot",
+      "created": "2026-01-21T22:58:52+08:00",
+      "lastUsed": "2026-01-21T22:58:52+08:00"
+    },
+    "1264666439e74a8d86c1ecd61fa7d3a5": {
+      "name": "",
+      "type": "latest-release",
+      "created": "2026-01-21T22:58:52+08:00",
+      "lastUsed": "2026-01-21T22:58:52+08:00"
+    }
+  },
+  "selectedProfile": "3e91d41c3b0e4768824bcb4e24803cf6",
+  "settings": {
+    "profileSorting": "byName"
+  },
+  "version": 6
+}

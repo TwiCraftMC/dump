@@ -1,0 +1,17 @@
+{
+  "lang": "en-US",
+  "theme": "dark",
+  "accentColor": "#2563eb",
+  "consoleEnabled": false,
+  "hideDefaultProfiles": true,
+  "performanceMode": false,
+  "allowXmxArgs": false,
+  "forceNativeTitlebar": false,
+  "forceDedicatedGPU": false,
+  "enableDiscordRPC": false,
+  "enableDnsOverride": false,
+  "enableLanTransformer": false,
+  "halloweenMode": false,
+  "lastSeenNewsId": "",
+  "disableWebview": false
+}
